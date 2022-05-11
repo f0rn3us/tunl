@@ -47,4 +47,4 @@ require (
 	honnef.co/go/tools v0.0.1-2020.1.4 // indirect
 )
 
-replace github.com/inconshreveable/go-vhost => github.com/f0rn3us/go-vhost v0.0.0-20201229150248-206eee94f4aa
+replace github.com/inconshreveable/go-vhost => github.com/pjvds/go-vhost v0.0.0-20201229150248-206eee94f4aa
