@@ -9,9 +9,9 @@ builds:
     ldflags:
       - -s
       - -w
-      - -X github.com/pjvds/tunl/pkg/version.BuildDate={{.Date}}
-      - -X github.com/pjvds/tunl/pkg/version.GitCommit={{.ShortCommit}}
-      - -X github.com/pjvds/tunl/pkg/version.Version={{.Version}}
+      - -X github.com/f0rn3us/tunl/pkg/version.BuildDate={{.Date}}
+      - -X github.com/f0rn3us/tunl/pkg/version.GitCommit={{.ShortCommit}}
+      - -X github.com/f0rn3us/tunl/pkg/version.Version={{.Version}}
     env:
       - CGO_ENABLED=0
     goos:
@@ -33,9 +33,9 @@ dockers:
     - "tunl/tunl:latest"
     - "tunl/tunl:{{ .Tag }}"
     - "tunl/tunl:v{{ .Major }}.{{ .Minor }}"
-    - "docker.pkg.github.com/pjvds/tunl/tunl:latest"
-    - "docker.pkg.github.com/pjvds/tunl/tunl:{{ .Tag }}"
-    - "docker.pkg.github.com/pjvds/tunl/tunl:v{{ .Major }}.{{ .Minor }}"
+    - "docker.pkg.github.com/f0rn3us/tunl/tunl:latest"
+    - "docker.pkg.github.com/f0rn3us/tunl/tunl:{{ .Tag }}"
+    - "docker.pkg.github.com/f0rn3us/tunl/tunl:v{{ .Major }}.{{ .Minor }}"
     extra_files:
 
 brews:
