@@ -32,7 +32,7 @@ tunl.es:48221 -> <container-name>:<port>
 
 # Installation
 
-Download the [binary release](https://github.com/pjvds/tunl/releases/latest) and put it somewhere in your `$PATH`.
+Download the [binary release](https://github.com/f0rn3us/tunl/releases/latest) and put it somewhere in your `$PATH`.
 
 ## Basic 
 

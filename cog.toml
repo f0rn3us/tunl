@@ -1,4 +1,4 @@
-github = "https://github.com/pjvds/tunl"
+github = "https://github.com/f0rn3us/tunl"
 
 changelog_path = "CHANGELOG.md"
 pre_bump_hooks = []

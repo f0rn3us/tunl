@@ -8,7 +8,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/pjvds/tunl/pkg/tunnel"
+	"github.com/f0rn3us/tunl/pkg/tunnel"
 	"github.com/urfave/cli/v2"
 	"go.uber.org/zap"
 )

@@ -12,7 +12,7 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/client"
-	"github.com/pjvds/tunl/pkg/tunnel"
+	"github.com/f0rn3us/tunl/pkg/tunnel"
 	"go.uber.org/zap"
 
 	"github.com/urfave/cli/v2"

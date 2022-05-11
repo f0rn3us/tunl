@@ -3,7 +3,7 @@ package state
 import (
 	"context"
 
-	"github.com/pjvds/tunl/pkg/tunnel/client"
+	"github.com/f0rn3us/tunl/pkg/tunnel/client"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

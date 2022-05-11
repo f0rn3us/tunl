@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/pjvds/tunl/cmd/commands"
-	"github.com/pjvds/tunl/pkg/version"
+	"github.com/f0rn3us/tunl/cmd/commands"
+	"github.com/f0rn3us/tunl/pkg/version"
 
 	"github.com/urfave/cli/v2"
 )

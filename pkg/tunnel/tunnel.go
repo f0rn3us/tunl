@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/Masterminds/semver"
-	"github.com/pjvds/tunl/pkg/tunnel/client"
-	"github.com/pjvds/tunl/pkg/tunnel/state"
+	"github.com/f0rn3us/tunl/pkg/tunnel/client"
+	"github.com/f0rn3us/tunl/pkg/tunnel/state"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 )

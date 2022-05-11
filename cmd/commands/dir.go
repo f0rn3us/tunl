@@ -12,8 +12,8 @@ import (
 	"github.com/goji/httpauth"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/sessions"
-	"github.com/pjvds/tunl/pkg/templates"
-	"github.com/pjvds/tunl/pkg/tunnel"
+	"github.com/f0rn3us/tunl/pkg/templates"
+	"github.com/f0rn3us/tunl/pkg/tunnel"
 	"github.com/urfave/cli/v2"
 	"go.uber.org/zap"
 )

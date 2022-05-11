@@ -14,9 +14,9 @@ import (
 	honeycomb "github.com/getspine/go-metrics-honeycomb"
 	"github.com/hashicorp/yamux"
 	"github.com/inconshreveable/go-vhost"
-	"github.com/pjvds/tunl/pkg/tunnel/certs"
-	"github.com/pjvds/tunl/pkg/tunnel/server"
-	"github.com/pjvds/tunl/pkg/version"
+	"github.com/f0rn3us/tunl/pkg/tunnel/certs"
+	"github.com/f0rn3us/tunl/pkg/tunnel/server"
+	"github.com/f0rn3us/tunl/pkg/version"
 	"github.com/rcrowley/go-metrics"
 	"github.com/rs/xid"
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/pjvds/tunl/pkg/tunnel/client"
+	"github.com/f0rn3us/tunl/pkg/tunnel/client"
 	"go.uber.org/zap"
 )
 
