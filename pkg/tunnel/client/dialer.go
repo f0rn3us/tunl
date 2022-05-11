@@ -12,7 +12,7 @@ type Dialer interface {
 type TlsDialer string
 
 func (addr TlsDialer) Dial() (net.Conn, error) {
-	return tls.Dial("tcp", string(addr), &tls,Config{InsecureSkipVerify:true)
+	return tls.Dial("tcp", string(addr), &tls,Config{InsecureSkipVerify:true})
 }
 
 type TcpDialer string
