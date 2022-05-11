@@ -3,10 +3,10 @@ module github.com/f0rn3us/tunl
 go 1.16
 
 require (
-	github.com/Masterminds/semver v1.5.0 // indirect
+	github.com/Masterminds/semver v1.5.0
 	github.com/Microsoft/go-winio v0.4.16 // indirect
 	github.com/armon/go-metrics v0.3.6
-	github.com/atotto/clipboard v0.1.2 // indirect
+	github.com/atotto/clipboard v0.1.2
 	github.com/containerd/containerd v1.4.3 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/docker/distribution v2.7.1+incompatible // indirect
